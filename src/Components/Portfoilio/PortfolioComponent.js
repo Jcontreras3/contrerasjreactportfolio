@@ -1,7 +1,12 @@
 import React from 'react'
+import { Container, Row } from 'react-bootstrap'
 
 export default function PortfolioComponent() {
   return (
-    <div>PortfolioComponent</div>
+    <Container className='portCont'>
+      <Row>
+
+      </Row>
+    </Container>
   )
 }
