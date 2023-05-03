@@ -96,6 +96,7 @@
 .allforonestyle{
     width: 10rem;
     height: 10rem;
+    margin-left: 2rem;
 }
 .allforonestyle:hover{
     box-shadow: 0px 0px 30px 10px #1e7835;
@@ -104,10 +105,10 @@
     font-family: 'Bruno Ace SC', cursive;
     color: #00F53D;
     text-align: center;
-    font-size: 10px;
+    font-size: 20px;
 }
 .allGroup{
-    width: 10rem !important;
+    width: 15rem !important;
    
 
 }
@@ -121,6 +122,7 @@
 .hamsterHotelstyle{
     width: 10rem;
     height: 10rem;
+    margin-left: 2rem;
 }
 .hamsterHotelstyle:hover{
     box-shadow: 0px 0px 30px 10px #1e7835;
@@ -129,17 +131,16 @@
     color: #00F53D;
     font-family: 'Bruno Ace SC', cursive;
     text-align: center;
-    font-size: 10px;
+    font-size: 20px;
 }
 .hamsterGroup{
-    width: 10rem !important;
-    margin-left: 3rem;
-    float: right;
+    width: 15rem !important;
     
 }
 .adviceGenstyle{
     width: 10rem;
     height: 10rem;
+    margin-left: 2rem;
 }
 .adviceGenstyle:hover{
     box-shadow: 0px 0px 30px 10px #1e7835;
@@ -148,17 +149,17 @@
     color: #00F53D;
     font-family: 'Bruno Ace SC', cursive;
     text-align: center;
-    font-size: 10px;
+    font-size: 20px;
 }
 .adviceGroup{
-    width: 10rem !important;
-    margin-left: 3rem;
-    float: right;
+    width: 15rem !important;
+   
     
 }
 .budgetGenstyle{
     width: 10rem;
     height: 10rem;
+    margin-left: 2rem;
 }
 .budgetGenstyle:hover{
     box-shadow: 0px 0px 30px 10px #1e7835;
@@ -167,17 +168,16 @@
     color: #00F53D;
     font-family: 'Bruno Ace SC', cursive;
     text-align: center;
-    font-size: 10px;
+    font-size: 20px;
 }
 .budgetGroup{
-    width: 10rem !important;
-    margin-left: 3rem;
-    float: right;
+    width: 15rem !important;
     
 }
 .pokeGenstyle{
     width: 10rem;
     height: 10rem;
+    margin-left: 2rem;
 }
 .pokeGenstyle:hover{
     box-shadow: 0px 0px 30px 10px #1e7835;
@@ -186,12 +186,10 @@
     color: #00F53D;
     font-family: 'Bruno Ace SC', cursive;
     text-align: center;
-    font-size: 10px;
+    font-size: 20px;
 }
 .pokeGroup{
-    width: 10rem !important;
-    margin-left: 3rem;
-    float: right;
+    width: 15rem !important;
     
 }
 
@@ -238,4 +236,9 @@
 .lanTitleGroup{
     background-color: black;
     opacity: 80%;
+}
+.repoStyle{
+    justify-content: center;
+    display: flex;
+    color: #00F53D;
 }

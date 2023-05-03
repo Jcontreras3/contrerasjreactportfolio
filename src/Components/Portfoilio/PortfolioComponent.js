@@ -84,6 +84,12 @@ export default function PortfolioComponent() {
             >
               <img className="allforonestyle" src={allforone} />
             </Link>
+            <Link
+              className="repoStyle"
+              href="https://github.com/Jcontreras3/allforonereact"
+            >
+              Repository
+            </Link>
           </div>
           <div className="hamsterGroup">
             <p className="hamsterTitle">Hamster Hotel</p>
@@ -96,9 +102,15 @@ export default function PortfolioComponent() {
             >
               <img className="hamsterHotelstyle" src={HamsterHotel} />
             </Link>
+            <Link
+              className="repoStyle"
+              href="https://github.com/Jcontreras3/ContrerasJHamsterHotel"
+            >
+              Repository
+            </Link>
           </div>
           <div className="adviceGroup">
-            <p className="adviceTitle">Advice Generator</p>
+            <p className="adviceTitle">Advice Gen</p>
             <div className="languagesUsed">
               <Icon icon="mdi:react" /> <JavascriptIcon /> <CssIcon />
             </div>
@@ -108,29 +120,41 @@ export default function PortfolioComponent() {
             >
               <img className="adviceGenstyle" src={AdviceGenerator} />
             </Link>
+            <Link
+              className="repoStyle"
+              href="https://github.com/Jcontreras3/contrerasjadvicegenerator"
+            >
+              Repository
+            </Link>
           </div>
           <div className="budgetGroup">
             <p className="budgetTitle">Budgetting App</p>
             <div className="languagesUsed">
               <JavascriptIcon /> <CssIcon /> <HtmlIcon />
             </div>
-            <Link
-              className=""
-              href="https://jcontreras3.github.io/ContrerasJBudgetApp/"
-            >
+            <Link href="https://jcontreras3.github.io/ContrerasJBudgetApp/">
               <img className="budgetGenstyle" src={BudgetApp} />
+            </Link>
+            <Link
+              className="repoStyle"
+              href="https://github.com/Jcontreras3/ContrerasJBudgetApp"
+            >
+              Repository
             </Link>
           </div>
           <div className="pokeGroup">
-            <p className="pokeTitle">Pokemon Generator</p>
+            <p className="pokeTitle">Pokemon Gen</p>
             <div className="languagesUsed">
               <Icon icon="mdi:react" /> <JavascriptIcon /> <CssIcon />
             </div>
-            <Link
-              className=""
-              href="http://contrerasjovannpokedex.azurewebsites.net"
-            >
+            <Link href="http://contrerasjovannpokedex.azurewebsites.net">
               <img className="pokeGenstyle" src={PokemonApp} />
+            </Link>
+            <Link
+              className="repoStyle"
+              href="https://github.com/Jcontreras3/contrerasjovannpokedexreact"
+            >
+              Repository
             </Link>
           </div>
         </Row>
@@ -159,6 +183,7 @@ export default function PortfolioComponent() {
                 height="75"
                 icon="mdi:language-typescript"
               />
+              <Icon icon="ph:file-css-bold" width="75" height="75" />
             </div>
           </div>
 
@@ -169,7 +194,6 @@ export default function PortfolioComponent() {
               <Icon icon="tabler:brand-react-native" width="40" height="40" />
               <Icon icon="skill-icons:bootstrap" width="40" height="40" />
               <Icon icon="devicon:tailwindcss" width="40" height="40" />
-              <Icon icon="ph:file-css-bold" width="40" height="40" />
             </div>
           </div>
           <div className="languagesBxThree">
@@ -181,7 +205,11 @@ export default function PortfolioComponent() {
               <Icon icon="devicon:jira-wordmark" width="40" height="40" />
               <Icon icon="devicon:azure" width="40" height="40" />
               <Icon icon="logos:postman-icon" width="40" height="40" />
-              <Icon icon="vscode-icons:file-type-vscode" width="40" height="40" />
+              <Icon
+                icon="vscode-icons:file-type-vscode"
+                width="40"
+                height="40"
+              />
             </div>
           </div>
         </Row>
