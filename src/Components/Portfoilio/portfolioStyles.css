@@ -1,6 +1,97 @@
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
 
+.portCont{
+    
+    width: 100%;
+    overflow: hidden;
+}
 .titleTxt{
     color: #00F53D;
     font-family: 'Bruno Ace SC', cursive;
+    margin-left: 10rem;
+    font-size: 80px;
+    margin-top: 3rem;
+}
+.introTxt{
+    color: #00F53D;
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 30px;
+    text-align: center;
+    
+}
+.abtMeBx{
+   margin-top: 5rem; 
+   background-color: grey;
+    opacity: 80%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 80rem !important;
+}
+
+.abtRow{
+    justify-content: center ;
+    display: flex;
+   
+    
+}
+
+.lanRow{
+    background-color: grey;
+    opacity: 80%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top: 10rem !important;
+}
+.lanTxt{
+    color: #00F53D;
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+.lanTxt2{
+    color: #00F53D;
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 28px;
+    text-align: center;
+}
+
+.lanTitle{
+    color: #00F53D;
+    font-family: 'Bruno Ace SC', cursive;
+    text-decoration: underline;
+}
+
+.navStyle{
+    opacity: 80%;
+}
+.navTitle{
+    color: #00F53D;
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+.projectsRow{
+    display: flex;
+  justify-content: center;
+}
+.projectsBx{
+    background-color: black;
+    opacity: 80%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top: 10rem !important;
+}
+.projectsTitle{
+    color: #00F53D;
+    font-family: 'Bruno Ace SC', cursive;
+    text-align: center;
+}
+.allforonestyle{
+    width: 20rem;
+    height: 20rem;
 }
