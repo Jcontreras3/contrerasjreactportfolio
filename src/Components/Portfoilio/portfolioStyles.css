@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 .portCont{
     
     width: 100%;
@@ -75,16 +76,19 @@
 
 .projectsRow{
     display: flex;
-  justify-content: center;
+   flex-direction: column;
 }
 .projectsBx{
     background-color: black;
-    opacity: 80%;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     margin-top: 10rem !important;
+    flex-direction: row;
+    display: flex;
+    height: 25rem;
+    align-items: center;
 }
 .projectsTitle{
     color: #00F53D;
@@ -92,6 +96,111 @@
     text-align: center;
 }
 .allforonestyle{
-    width: 20rem;
-    height: 20rem;
+    width: 10rem;
+    height: 10rem;
+}
+.allforonestyle:hover{
+    box-shadow: 0px 0px 30px 10px #1e7835;
+}
+.allTitle{
+    font-family: 'Bruno Ace SC', cursive;
+    color: #00F53D;
+    text-align: center;
+    font-size: 10px;
+}
+.allGroup{
+    width: 10rem;
+   
+
+}
+.languagesUsed{
+    font-family: 'Bruno Ace SC', cursive;
+    color: #00F53D;
+    text-align: center;
+   
+}
+
+.hamsterHotelstyle{
+    width: 10rem;
+    height: 10rem;
+}
+.hamsterHotelstyle:hover{
+    box-shadow: 0px 0px 30px 10px #1e7835;
+}
+.hamsterTitle{
+    color: #00F53D;
+    font-family: 'Bruno Ace SC', cursive;
+    text-align: center;
+    font-size: 10px;
+}
+.hamsterGroup{
+    width: 10rem;
+    margin-left: 3rem;
+    float: right;
+    
+}
+.adviceGenstyle{
+    width: 10rem;
+    height: 10rem;
+}
+.adviceGenstyle:hover{
+    box-shadow: 0px 0px 30px 10px #1e7835;
+}
+.adviceTitle{
+    color: #00F53D;
+    font-family: 'Bruno Ace SC', cursive;
+    text-align: center;
+    font-size: 10px;
+}
+.adviceGroup{
+    width: 10rem;
+    margin-left: 3rem;
+    float: right;
+    
+}
+.budgetGenstyle{
+    width: 10rem;
+    height: 10rem;
+}
+.budgetGenstyle:hover{
+    box-shadow: 0px 0px 30px 10px #1e7835;
+}
+.budgetTitle{
+    color: #00F53D;
+    font-family: 'Bruno Ace SC', cursive;
+    text-align: center;
+    font-size: 10px;
+}
+.budgetGroup{
+    width: 10rem;
+    margin-left: 3rem;
+    float: right;
+    
+}
+.pokeGenstyle{
+    width: 10rem;
+    height: 10rem;
+}
+.pokeGenstyle:hover{
+    box-shadow: 0px 0px 30px 10px #1e7835;
+}
+.pokeTitle{
+    color: #00F53D;
+    font-family: 'Bruno Ace SC', cursive;
+    text-align: center;
+    font-size: 10px;
+}
+.pokeGroup{
+    width: 10rem;
+    margin-left: 3rem;
+    float: right;
+    
+}
+
+.reactTxt{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 9px;
+    margin: 0;
+   
+    
 }
