@@ -33,18 +33,21 @@
 .abtRow{
     justify-content: center ;
     display: flex;
-   
-    
 }
 
 .lanRow{
-  
+    background-color: grey;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     height: 10rem;
-    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 40rem;
+    height: 30rem;
+    margin-left: 20rem !important;
+    margin-top: 3rem !important;
 }
 .lanTxt{
     color: #00F53D;
@@ -203,19 +206,19 @@
 }
 .languagesBx{
     width: 20rem !important;
-    margin-left: 15rem;
-    background-color: grey;
-    opacity: 80%;
+    /* margin-left: 15rem; */
+   
     height: 10rem;
 }
+
 .languagesBxTwo{
     width: 20rem !important;
-
+    
 }
+
 .languagesBxThree{
     width: 20rem !important;
-    margin-left: 5rem;
-
+  
 }
 
 .txt2{
@@ -232,6 +235,7 @@
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
+    
 }
 .lanTitleGroup{
     background-color: black;
@@ -241,4 +245,10 @@
     justify-content: center;
     display: flex;
     color: #00F53D;
+}
+.createdByTxt{
+    font-size: 40px;
+    color: #00F53D;
+    font-family: 'Bruno Ace SC', cursive;
+    text-align: center;
 }

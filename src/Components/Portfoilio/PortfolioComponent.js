@@ -46,12 +46,7 @@ export default function PortfolioComponent() {
                 <GitHubIcon />
               </Nav.Link>
             </Nav>
-            <Nav>
-              <Nav.Link href="#deets">More deets</Nav.Link>
-              <Nav.Link eventKey={2} href="#memes">
-                Dank memes
-              </Nav.Link>
-            </Nav>
+           
           </Navbar.Collapse>
         </Container>
       </Navbar>
@@ -59,6 +54,7 @@ export default function PortfolioComponent() {
         <Row>
           <div>
             <h1 className="titleTxt">Welcome!</h1>
+            <h1 className="createdByTxt">Created By: Jovann Contreras</h1>
           </div>
         </Row>
         <Row className="abtRow">
@@ -190,25 +186,25 @@ export default function PortfolioComponent() {
           <div className="languagesBxTwo">
             <h3 className="lanTitle">Frameworks/Libaries</h3>
             <div className="iconGroup">
-              <Icon icon="mdi:react" width="40" height="40" />
-              <Icon icon="tabler:brand-react-native" width="40" height="40" />
-              <Icon icon="skill-icons:bootstrap" width="40" height="40" />
-              <Icon icon="devicon:tailwindcss" width="40" height="40" />
+              <Icon icon="mdi:react" width="75" height="75" />
+              <Icon icon="tabler:brand-react-native" width="75" height="75" />
+              <Icon icon="skill-icons:bootstrap" width="75" height="75" />
+              <Icon icon="devicon:tailwindcss" width="75" height="75" />
             </div>
           </div>
           <div className="languagesBxThree">
             <h3 className="lanTitle">Productivity Tools</h3>
             <div className="iconGroup">
-              <Icon icon="logos:notion-icon" width="40" height="40" />
-              <Icon icon="ph:figma-logo-duotone" width="40" height="40" />
-              <Icon icon="simple-icons:adobexd" width="40" height="40" />
-              <Icon icon="devicon:jira-wordmark" width="40" height="40" />
-              <Icon icon="devicon:azure" width="40" height="40" />
-              <Icon icon="logos:postman-icon" width="40" height="40" />
+              <Icon icon="logos:notion-icon" width="75" height="75" />
+              <Icon icon="ph:figma-logo-duotone" width="75" height="75" />
+              <Icon icon="simple-icons:adobexd" width="75" height="75" />
+              <Icon icon="devicon:jira-wordmark" width="75" height="75" />
+              <Icon icon="devicon:azure" width="75" height="75" />
+              <Icon icon="logos:postman-icon" width="75" height="75" />
               <Icon
                 icon="vscode-icons:file-type-vscode"
-                width="40"
-                height="40"
+                width="75"
+                height="75"
               />
             </div>
           </div>
