@@ -23,7 +23,6 @@
 .abtMeBx{
    margin-top: 5rem; 
    background-color: grey;
-    opacity: 80%;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -39,13 +38,13 @@
 }
 
 .lanRow{
-    background-color: grey;
-    opacity: 80%;
+  
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    margin-top: 10rem !important;
+    height: 10rem;
+    align-items: center;
 }
 .lanTxt{
     color: #00F53D;
@@ -64,11 +63,11 @@
     color: #00F53D;
     font-family: 'Bruno Ace SC', cursive;
     text-decoration: underline;
+    text-align: center;
+    font-size: 25px;
 }
 
-.navStyle{
-    opacity: 80%;
-}
+
 .navTitle{
     color: #00F53D;
     font-family: 'Bruno Ace SC', cursive;
@@ -85,10 +84,9 @@
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     margin-top: 10rem !important;
-    flex-direction: row;
+    justify-content: center;
     display: flex;
     height: 25rem;
-    align-items: center;
 }
 .projectsTitle{
     color: #00F53D;
@@ -109,7 +107,7 @@
     font-size: 10px;
 }
 .allGroup{
-    width: 10rem;
+    width: 10rem !important;
    
 
 }
@@ -134,7 +132,7 @@
     font-size: 10px;
 }
 .hamsterGroup{
-    width: 10rem;
+    width: 10rem !important;
     margin-left: 3rem;
     float: right;
     
@@ -153,7 +151,7 @@
     font-size: 10px;
 }
 .adviceGroup{
-    width: 10rem;
+    width: 10rem !important;
     margin-left: 3rem;
     float: right;
     
@@ -172,7 +170,7 @@
     font-size: 10px;
 }
 .budgetGroup{
-    width: 10rem;
+    width: 10rem !important;
     margin-left: 3rem;
     float: right;
     
@@ -191,7 +189,7 @@
     font-size: 10px;
 }
 .pokeGroup{
-    width: 10rem;
+    width: 10rem !important;
     margin-left: 3rem;
     float: right;
     
@@ -201,6 +199,43 @@
     font-family: 'Bebas Neue', cursive;
     font-size: 9px;
     margin: 0;
+    font-weight: 500px;
    
     
+}
+.languagesBx{
+    width: 20rem !important;
+    margin-left: 15rem;
+    background-color: grey;
+    opacity: 80%;
+    height: 10rem;
+}
+.languagesBxTwo{
+    width: 20rem !important;
+
+}
+.languagesBxThree{
+    width: 20rem !important;
+    margin-left: 5rem;
+
+}
+
+.txt2{
+    text-align: center;
+}
+
+.lanTitleGroup{
+    margin-top: 5rem;
+}
+.htmlStyle{
+    font-size: 40rem;
+}
+.iconGroup{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.lanTitleGroup{
+    background-color: black;
+    opacity: 80%;
 }
