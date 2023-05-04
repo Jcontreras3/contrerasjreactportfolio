@@ -45,8 +45,10 @@ export default function PortfolioComponent() {
               <Nav.Link href="https://tinyurl.com/3kk4m6sz">
                 <GitHubIcon />
               </Nav.Link>
+              <Nav.Link href="https://tinyurl.com/3kk4m6sz">
+                <button className="resumeBtn">Resume</button>
+              </Nav.Link>
             </Nav>
-           
           </Navbar.Collapse>
         </Container>
       </Navbar>
@@ -59,10 +61,11 @@ export default function PortfolioComponent() {
         </Row>
         <Row className="abtRow">
           <div className="abtMeBx">
-            <h2 className="introTxt">Frontend Developer</h2>
+            <h2 className="frontEndTxt">Frontend Developer</h2>
             <p className="introTxt">
-              Hello welcome to my portfolio webpage, my name is Jovann Contreras
-              I am Junior Software Engineer who enjoys working on the frontend
+              Hello welcome to my portfolio webpage, my name is Jovann
+              Contreras, I am a Junior Software Engineer who enjoys working on
+              the frontend
             </p>
           </div>
         </Row>
@@ -159,18 +162,24 @@ export default function PortfolioComponent() {
           <div className="languagesBx">
             <h3 className="lanTitle">Languages</h3>
             <div className="iconGroup">
-              <Icon icon="material-symbols:html" width="75" height="75" />
-              <Icon icon="material-symbols:javascript" width="75" height="75" />
               <Icon
-                className=""
+                icon="material-symbols:html"
+                color="#f70"
                 width="75"
                 height="75"
-                icon="teenyicons:c-sharp-solid"
               />
+              <Icon
+                icon="material-symbols:javascript"
+                color="#FFDD00"
+                width="75"
+                height="75"
+              />
+              <Icon icon="devicon:csharp" color="#f70" width="75" height="75" />
               <Icon
                 className="sqlStyle"
                 width="75"
                 height="75"
+                color="#DA3737"
                 icon="tabler:sql"
               />
               <Icon
@@ -186,8 +195,13 @@ export default function PortfolioComponent() {
           <div className="languagesBxTwo">
             <h3 className="lanTitle">Frameworks/Libaries</h3>
             <div className="iconGroup">
-              <Icon icon="mdi:react" width="75" height="75" />
-              <Icon icon="tabler:brand-react-native" width="75" height="75" />
+              <Icon icon="mdi:react" color="#00C8FF" width="75" height="75" />
+              <Icon
+                icon="tabler:brand-react-native"
+                color="#00C8FF"
+                width="75"
+                height="75"
+              />
               <Icon icon="skill-icons:bootstrap" width="75" height="75" />
               <Icon icon="devicon:tailwindcss" width="75" height="75" />
             </div>
@@ -206,6 +220,7 @@ export default function PortfolioComponent() {
                 width="75"
                 height="75"
               />
+              <Icon icon="logos:slack-icon" width="75" height="75" />
             </div>
           </div>
         </Row>

@@ -1,254 +1,259 @@
-@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-.portCont{
-    
-    width: 100%;
-    overflow: hidden;
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+.portCont {
+  width: 100%;
 }
-.titleTxt{
-    color: #00F53D;
-    font-family: 'Bruno Ace SC', cursive;
-    margin-left: 10rem;
-    font-size: 80px;
-    margin-top: 3rem;
+.titleTxt {
+  color: #00f53d;
+  font-family: "Bruno Ace SC", cursive;
+  margin-left: 10rem;
+  font-size: 80px;
+  margin-top: 3rem;
 }
-.introTxt{
-    color: #00F53D;
-    font-family: 'Bruno Ace SC', cursive;
-    font-size: 30px;
-    text-align: center;
-    
+.introTxt {
+  color: #00f53d;
+  font-family: "Bruno Ace SC", cursive;
+  font-size: 30px;
+  text-align: center;
 }
-.abtMeBx{
-   margin-top: 5rem; 
-   background-color: grey;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    width: 80rem !important;
+.frontEndTxt {
+  color: #00f53d;
+  font-family: "Bruno Ace SC", cursive;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
 }
-
-.abtRow{
-    justify-content: center ;
-    display: flex;
-}
-
-.lanRow{
-    background-color: grey;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    height: 10rem;
-    display: flex;
-    justify-content: center;
-    width: 40rem;
-    height: 30rem;
-    margin-left: 20rem !important;
-    margin-top: 3rem !important;
-}
-.lanTxt{
-    color: #00F53D;
-    font-family: 'Bruno Ace SC', cursive;
-    font-size: 30px;
-    text-align: center;
-}
-.lanTxt2{
-    color: #00F53D;
-    font-family: 'Bruno Ace SC', cursive;
-    font-size: 28px;
-    text-align: center;
+.abtMeBx {
+  margin-top: 5rem;
+  background-color: grey;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 80rem !important;
 }
 
-.lanTitle{
-    color: #00F53D;
-    font-family: 'Bruno Ace SC', cursive;
-    text-decoration: underline;
-    text-align: center;
-    font-size: 25px;
+.abtRow {
+  justify-content: center;
+  display: flex;
+}
+
+.lanRow {
+  background-color: rgb(77, 77, 77);
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  width: 50rem;
+  height: 40rem;
+  margin-left: 20rem !important;
+  margin-top: 3rem !important;
+}
+.lanTxt {
+  color: #00f53d;
+  font-family: "Bruno Ace SC", cursive;
+  font-size: 30px;
+  text-align: center;
+}
+.lanTxt2 {
+  color: #00f53d;
+  font-family: "Bruno Ace SC", cursive;
+  font-size: 28px;
+  text-align: center;
+}
+
+.lanTitle {
+  color: #00f53d;
+  font-family: "Bruno Ace SC", cursive;
+  text-decoration: underline;
+  text-align: center;
+  font-size: 25px;
+}
+
+.navTitle {
+  color: #00f53d;
+  font-family: "Bruno Ace SC", cursive;
+}
+
+.projectsRow {
+  display: flex;
+  flex-direction: column;
+}
+.projectsBx {
+  background-color: black;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-top: 10rem !important;
+  justify-content: center;
+  display: flex;
+  height: 25rem;
+}
+.projectsTitle {
+  color: #00f53d;
+  font-family: "Bruno Ace SC", cursive;
+  text-align: center;
+}
+.allforonestyle {
+  width: 10rem;
+  height: 10rem;
+  margin-left: 2rem;
+}
+.allforonestyle:hover {
+  box-shadow: 0px 0px 30px 10px #1e7835;
+}
+.allTitle {
+  font-family: "Bruno Ace SC", cursive;
+  color: #00f53d;
+  text-align: center;
+  font-size: 20px;
+}
+.allGroup {
+  width: 15rem !important;
+}
+.languagesUsed {
+  font-family: "Bruno Ace SC", cursive;
+  color: #00f53d;
+  text-align: center;
+}
+
+.hamsterHotelstyle {
+  width: 10rem;
+  height: 10rem;
+  margin-left: 2rem;
+}
+.hamsterHotelstyle:hover {
+  box-shadow: 0px 0px 30px 10px #1e7835;
+}
+.hamsterTitle {
+  color: #00f53d;
+  font-family: "Bruno Ace SC", cursive;
+  text-align: center;
+  font-size: 20px;
+}
+.hamsterGroup {
+  width: 15rem !important;
+}
+.adviceGenstyle {
+  width: 10rem;
+  height: 10rem;
+  margin-left: 2rem;
+}
+.adviceGenstyle:hover {
+  box-shadow: 0px 0px 30px 10px #1e7835;
+}
+.adviceTitle {
+  color: #00f53d;
+  font-family: "Bruno Ace SC", cursive;
+  text-align: center;
+  font-size: 20px;
+}
+.adviceGroup {
+  width: 15rem !important;
+}
+.budgetGenstyle {
+  width: 10rem;
+  height: 10rem;
+  margin-left: 2rem;
+}
+.budgetGenstyle:hover {
+  box-shadow: 0px 0px 30px 10px #1e7835;
+}
+.budgetTitle {
+  color: #00f53d;
+  font-family: "Bruno Ace SC", cursive;
+  text-align: center;
+  font-size: 20px;
+}
+.budgetGroup {
+  width: 15rem !important;
+}
+.pokeGenstyle {
+  width: 10rem;
+  height: 10rem;
+  margin-left: 2rem;
+}
+.pokeGenstyle:hover {
+  box-shadow: 0px 0px 30px 10px #1e7835;
+}
+.pokeTitle {
+  color: #00f53d;
+  font-family: "Bruno Ace SC", cursive;
+  text-align: center;
+  font-size: 20px;
+}
+.pokeGroup {
+  width: 15rem !important;
+}
+
+.reactTxt {
+  font-family: "Bebas Neue", cursive;
+  font-size: 9px;
+  margin: 0;
+  font-weight: 500px;
+}
+.languagesBx {
+  width: 20rem !important;
+  /* margin-left: 15rem; */
+  margin-top: 5rem !important;
+  height: 10rem;
+}
+
+.languagesBxTwo {
+  width: 20rem !important;
+  margin-top: 5rem !important;
+}
+
+.languagesBxThree {
+  width: 20rem !important;
+  margin-top: 5rem !important;
+}
+
+.txt2 {
+  text-align: center;
+}
+
+.lanTitleGroup {
+  margin-top: 5rem;
+}
+.htmlStyle {
+  font-size: 40rem;
+}
+.iconGroup {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.lanTitleGroup {
+  background-color: black;
+  opacity: 80%;
+}
+.repoStyle {
+  justify-content: center;
+  display: flex;
+  color: #00f53d;
+}
+.createdByTxt {
+  font-size: 40px;
+  color: #00f53d;
+  font-family: "Bruno Ace SC", cursive;
+  text-align: center;
+}
+
+.resumeBtn{
+    background-color: #00f53d;
+    border: none;
+    border-radius: 5px;
+    font-family: "Bruno Ace SC", cursive;
+}
+
+.resumeBtn:hover{
+    background-color: #26b64a;
 }
 
 
-.navTitle{
-    color: #00F53D;
-    font-family: 'Bruno Ace SC', cursive;
-}
-
-.projectsRow{
-    display: flex;
-   flex-direction: column;
-}
-.projectsBx{
-    background-color: black;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    margin-top: 10rem !important;
-    justify-content: center;
-    display: flex;
-    height: 25rem;
-}
-.projectsTitle{
-    color: #00F53D;
-    font-family: 'Bruno Ace SC', cursive;
-    text-align: center;
-}
-.allforonestyle{
-    width: 10rem;
-    height: 10rem;
-    margin-left: 2rem;
-}
-.allforonestyle:hover{
-    box-shadow: 0px 0px 30px 10px #1e7835;
-}
-.allTitle{
-    font-family: 'Bruno Ace SC', cursive;
-    color: #00F53D;
-    text-align: center;
-    font-size: 20px;
-}
-.allGroup{
-    width: 15rem !important;
-   
-
-}
-.languagesUsed{
-    font-family: 'Bruno Ace SC', cursive;
-    color: #00F53D;
-    text-align: center;
-   
-}
-
-.hamsterHotelstyle{
-    width: 10rem;
-    height: 10rem;
-    margin-left: 2rem;
-}
-.hamsterHotelstyle:hover{
-    box-shadow: 0px 0px 30px 10px #1e7835;
-}
-.hamsterTitle{
-    color: #00F53D;
-    font-family: 'Bruno Ace SC', cursive;
-    text-align: center;
-    font-size: 20px;
-}
-.hamsterGroup{
-    width: 15rem !important;
-    
-}
-.adviceGenstyle{
-    width: 10rem;
-    height: 10rem;
-    margin-left: 2rem;
-}
-.adviceGenstyle:hover{
-    box-shadow: 0px 0px 30px 10px #1e7835;
-}
-.adviceTitle{
-    color: #00F53D;
-    font-family: 'Bruno Ace SC', cursive;
-    text-align: center;
-    font-size: 20px;
-}
-.adviceGroup{
-    width: 15rem !important;
-   
-    
-}
-.budgetGenstyle{
-    width: 10rem;
-    height: 10rem;
-    margin-left: 2rem;
-}
-.budgetGenstyle:hover{
-    box-shadow: 0px 0px 30px 10px #1e7835;
-}
-.budgetTitle{
-    color: #00F53D;
-    font-family: 'Bruno Ace SC', cursive;
-    text-align: center;
-    font-size: 20px;
-}
-.budgetGroup{
-    width: 15rem !important;
-    
-}
-.pokeGenstyle{
-    width: 10rem;
-    height: 10rem;
-    margin-left: 2rem;
-}
-.pokeGenstyle:hover{
-    box-shadow: 0px 0px 30px 10px #1e7835;
-}
-.pokeTitle{
-    color: #00F53D;
-    font-family: 'Bruno Ace SC', cursive;
-    text-align: center;
-    font-size: 20px;
-}
-.pokeGroup{
-    width: 15rem !important;
-    
-}
-
-.reactTxt{
-    font-family: 'Bebas Neue', cursive;
-    font-size: 9px;
-    margin: 0;
-    font-weight: 500px;
-   
-    
-}
-.languagesBx{
-    width: 20rem !important;
-    /* margin-left: 15rem; */
-   
-    height: 10rem;
-}
-
-.languagesBxTwo{
-    width: 20rem !important;
-    
-}
-
-.languagesBxThree{
-    width: 20rem !important;
-  
-}
-
-.txt2{
-    text-align: center;
-}
-
-.lanTitleGroup{
-    margin-top: 5rem;
-}
-.htmlStyle{
-    font-size: 40rem;
-}
-.iconGroup{
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    
-}
-.lanTitleGroup{
-    background-color: black;
-    opacity: 80%;
-}
-.repoStyle{
-    justify-content: center;
-    display: flex;
-    color: #00F53D;
-}
-.createdByTxt{
-    font-size: 40px;
-    color: #00F53D;
-    font-family: 'Bruno Ace SC', cursive;
-    text-align: center;
-}
