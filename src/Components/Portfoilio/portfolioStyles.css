@@ -26,7 +26,7 @@
 }
 .abtMeBx {
   margin-top: 5rem;
-  background-color: grey;
+  background-color: rgb(77, 77, 77);
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -49,9 +49,10 @@
   display: flex;
   justify-content: center;
   width: 50rem;
-  height: 40rem;
+  height: 50rem;
   margin-left: 20rem !important;
-  margin-top: 3rem !important;
+  margin-top: 4rem !important;
+  margin-bottom: 5rem;
 }
 .lanTxt {
   color: #00f53d;
@@ -211,7 +212,6 @@
 
 .languagesBxThree {
   width: 20rem !important;
-  margin-top: 5rem !important;
 }
 
 .txt2 {
@@ -254,6 +254,17 @@
 
 .resumeBtn:hover{
     background-color: #26b64a;
+}
+
+@media (max-width: 768px){
+  .lanRow{
+    margin-left: 2rem!important;
+    width: 35rem;
+    height: 60rem;
+  }
+  .projectsBx{
+    height: 60rem;
+  }
 }
 
 
