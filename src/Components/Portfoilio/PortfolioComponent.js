@@ -64,7 +64,7 @@ export default function PortfolioComponent() {
             <h2 className="frontEndTxt">Frontend Developer</h2>
             <p className="introTxt">
               Hello welcome to my portfolio webpage, my name is Jovann
-              Contreras, I am a Junior Software Engineer who enjoys working on
+              Contreras, A Junior Software Engineer who enjoys working on
               the frontend
             </p>
           </div>
