@@ -17,6 +17,7 @@ import HamsterHotel from "../../Assets/HamsterHotel.png";
 import AdviceGenerator from "../../Assets/advicegen.png";
 import BudgetApp from "../../Assets/Budgetapp.png";
 import PokemonApp from "../../Assets/PokemonGen.png";
+import JovannResume from "../../Assets/JovannResume23.pdf"
 import { Icon } from "@iconify/react";
 
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -45,7 +46,7 @@ export default function PortfolioComponent() {
               <Nav.Link href="https://tinyurl.com/3kk4m6sz">
                 <GitHubIcon />
               </Nav.Link>
-              <Nav.Link href="https://www.canva.com/design/DAFhW6vn8Os/gqvwpLyLHqzjT2dwoki3Ng/view?utm_content=DAFhW6vn8Os&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">
+              <Nav.Link href={JovannResume} target="_blank">
                 <button className="resumeBtn">Resume</button>
               </Nav.Link>
             </Nav>
@@ -233,7 +234,7 @@ export default function PortfolioComponent() {
           <Link href="https://tinyurl.com/3kk4m6sz">
             <GitHubIcon />
           </Link>
-          <Link href="https://www.canva.com/design/DAFhW6vn8Os/gqvwpLyLHqzjT2dwoki3Ng/view?utm_content=DAFhW6vn8Os&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">
+          <Link href={JovannResume} target="_blank">
             <button className="resumeBtn">Resume</button>
           </Link>
         </div>
