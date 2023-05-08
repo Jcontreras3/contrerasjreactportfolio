@@ -66,7 +66,7 @@ export default function PortfolioComponent() {
             <p className="introTxt">
               Hello welcome to my portfolio webpage, my name is Jovann
               Contreras, A Junior Software Engineer who enjoys working on the
-              frontend
+              frontend.
             </p>
           </div>
         </Row>
@@ -222,6 +222,7 @@ export default function PortfolioComponent() {
                 height="75"
               />
               <Icon icon="logos:slack-icon" width="75" height="75" />
+              <p className="dotNetTxt">.NET</p>
             </div>
           </div>
         </Row>

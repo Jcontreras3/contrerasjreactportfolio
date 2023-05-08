@@ -266,6 +266,10 @@
   justify-content: center;
   align-items: center;
 }
+.dotNetTxt{
+  font-size: 53px;
+  font-family: "Bruno Ace SC", cursive;
+}
 
 @media (max-width: 1024px) {
   .lanRow {
