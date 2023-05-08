@@ -17,7 +17,7 @@ import HamsterHotel from "../../Assets/HamsterHotel.png";
 import AdviceGenerator from "../../Assets/advicegen.png";
 import BudgetApp from "../../Assets/Budgetapp.png";
 import PokemonApp from "../../Assets/PokemonGen.png";
-import JovannResume from "../../Assets/JovannResume23.pdf"
+import JovannResume from"../../Assets/JovannResume23.pdf"
 import { Icon } from "@iconify/react";
 
 import "bootstrap/dist/css/bootstrap.min.css";
