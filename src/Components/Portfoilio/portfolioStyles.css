@@ -245,72 +245,81 @@
   text-align: center;
 }
 
-.resumeBtn{
-    background-color: #00f53d;
-    border: none;
-    border-radius: 5px;
-    font-family: "Bruno Ace SC", cursive;
+.resumeBtn {
+  background-color: #00f53d;
+  border: none;
+  border-radius: 5px;
+  font-family: "Bruno Ace SC", cursive;
 }
 
-.resumeBtn:hover{
-    background-color: #26b64a;
+.resumeBtn:hover {
+  background-color: #26b64a;
 }
 
-@media (max-width: 1024px){
-  .lanRow{
-    margin-left: 7rem!important;
+.footerRow {
+  background-color: rgb(77, 77, 77);
+  height: 5rem;
+}
+.footerBx {
+  display: flex;
+  gap: 5%;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .lanRow {
+    margin-left: 7rem !important;
     width: 50rem;
     height: 50rem;
   }
-  .projectsBx{
+  .projectsBx {
     height: 60rem;
   }
 }
-@media (max-width: 768px){
-  .lanRow{
-    margin-left: 6rem!important;
+@media (max-width: 768px) {
+  .lanRow {
+    margin-left: 6rem !important;
     width: 35rem;
     height: 60rem;
   }
-  .projectsBx{
+  .projectsBx {
     height: 60rem;
   }
 }
-@media (max-width: 425px){
-  .lanRow{
-    margin-left: 2.5rem!important;
+@media (max-width: 425px) {
+  .lanRow {
+    margin-left: 2.5rem !important;
     width: 20rem;
     height: 60rem;
     margin-top: 10rem !important;
   }
-  .lanTitle{
+  .lanTitle {
     font-size: 20px;
   }
-  .projectsBx{
+  .projectsBx {
     height: 95rem;
   }
-  .titleTxt{
+  .titleTxt {
     margin-left: 0rem;
     font-size: 50px;
   }
 }
-@media (max-width: 375px){
-  .lanRow{
+@media (max-width: 375px) {
+  .lanRow {
     /* margin-right: 1rem!important; */
     width: 15rem !important;
     height: 60rem;
     margin-top: 10rem !important;
   }
-  .lanTitle{
+  .lanTitle {
     font-size: 17px;
   }
-  .projectsBx{
+  .projectsBx {
     height: 95rem;
   }
-  .titleTxt{
+  .titleTxt {
     margin-left: 0rem;
     font-size: 50px;
   }
 }
-
-

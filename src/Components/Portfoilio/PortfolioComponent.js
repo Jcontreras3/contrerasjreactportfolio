@@ -45,7 +45,7 @@ export default function PortfolioComponent() {
               <Nav.Link href="https://tinyurl.com/3kk4m6sz">
                 <GitHubIcon />
               </Nav.Link>
-              <Nav.Link href="https://tinyurl.com/3kk4m6sz">
+              <Nav.Link href="https://www.canva.com/design/DAFhW6vn8Os/gqvwpLyLHqzjT2dwoki3Ng/view?utm_content=DAFhW6vn8Os&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">
                 <button className="resumeBtn">Resume</button>
               </Nav.Link>
             </Nav>
@@ -64,8 +64,8 @@ export default function PortfolioComponent() {
             <h2 className="frontEndTxt">Frontend Developer</h2>
             <p className="introTxt">
               Hello welcome to my portfolio webpage, my name is Jovann
-              Contreras, A Junior Software Engineer who enjoys working on
-              the frontend
+              Contreras, A Junior Software Engineer who enjoys working on the
+              frontend
             </p>
           </div>
         </Row>
@@ -225,6 +225,19 @@ export default function PortfolioComponent() {
           </div>
         </Row>
       </Container>
+      <Row className="footerRow">
+        <div className="footerBx">
+          <Link href="https://www.linkedin.com/in/jovannj-c/">
+            <LinkedInIcon />
+          </Link>
+          <Link href="https://tinyurl.com/3kk4m6sz">
+            <GitHubIcon />
+          </Link>
+          <Link href="https://www.canva.com/design/DAFhW6vn8Os/gqvwpLyLHqzjT2dwoki3Ng/view?utm_content=DAFhW6vn8Os&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">
+            <button className="resumeBtn">Resume</button>
+          </Link>
+        </div>
+      </Row>
     </>
   );
 }
