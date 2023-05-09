@@ -17,7 +17,7 @@ import HamsterHotel from "../../Assets/HamsterHotel.png";
 import AdviceGenerator from "../../Assets/advicegen.png";
 import BudgetApp from "../../Assets/Budgetapp.png";
 import PokemonApp from "../../Assets/PokemonGen.png";
-import JovannResume from"../../Assets/JovannResume23.pdf"
+import JovannResume from "../../Assets/JovannResume23.pdf";
 import { Icon } from "@iconify/react";
 
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -45,6 +45,12 @@ export default function PortfolioComponent() {
               </Nav.Link>
               <Nav.Link href="https://tinyurl.com/3kk4m6sz">
                 <GitHubIcon />
+              </Nav.Link>
+              <Nav.Link>
+                <p className="contactTxt">Contact: 209-670-5292</p>
+              </Nav.Link>
+              <Nav.Link>
+                <p className="contactTxt">Email: Jovannj.contreras@gmail.com</p>
               </Nav.Link>
               <Nav.Link href={JovannResume} target="_blank">
                 <button className="resumeBtn">Resume</button>

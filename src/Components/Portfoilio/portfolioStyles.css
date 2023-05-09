@@ -271,6 +271,10 @@
   font-family: "Bruno Ace SC", cursive;
 }
 
+.contactTxt{
+  font-family: "Bruno Ace SC", cursive;
+}
+
 @media (max-width: 1024px) {
   .lanRow {
     margin-left: 7rem !important;
