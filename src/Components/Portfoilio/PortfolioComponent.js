@@ -238,7 +238,7 @@ export default function PortfolioComponent() {
               />
               <p className="IconTxt">React Native</p>
              </div>
-             <div>
+             <div className="IconGrouping">
               <Icon className="IconStyling" icon="skill-icons:bootstrap" width="75" height="75" />
               <p className="IconTxt">BootStrap</p>
              </div>
