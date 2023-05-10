@@ -27,10 +27,10 @@
 .abtMeBx {
   margin-top: 5rem;
   background-color: rgb(77, 77, 77);
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   width: 80rem !important;
 }
 
@@ -41,15 +41,14 @@
 
 .lanRow {
   background-color: rgb(77, 77, 77);
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  height: 10rem;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   display: flex;
   justify-content: center;
   width: 50rem;
-  height: 50rem;
+  height: 70rem;
   margin-left: 20rem !important;
   margin-top: 4rem !important;
   margin-bottom: 5rem;
@@ -201,6 +200,7 @@
 .languagesBx {
   width: 20rem !important;
   /* margin-left: 15rem; */
+  justify-content: space-evenly;
   margin-top: 5rem !important;
   height: 10rem;
 }
@@ -228,6 +228,7 @@
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
+  margin-left: 30px;
 }
 .lanTitleGroup {
   background-color: black;
@@ -274,6 +275,53 @@
 .contactTxt{
   font-family: "Bruno Ace SC", cursive;
 }
+
+.linkedIn{
+  color: white;
+}
+.gitHub{
+  color: white;
+}
+
+.IconTxt{
+  text-align: center;
+  font-family: "Bruno Ace SC", cursive;
+  color: black;
+}
+.javaIcon{
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.sqlTxt{
+  text-align: center;
+  font-family: "Bruno Ace SC", cursive;
+  color: black;
+}
+
+
+.cSharpIcon{
+  margin-left: 10px;
+}
+
+.cssIcon{
+  margin-left: 10px;
+}
+
+.IconStyling{
+  margin-left: 20px;
+}
+
+.IconGrouping{
+  margin-left: 10px;
+}
+.ReactNativeIconGrouping{
+  margin-left: 30px;
+}
+
+.projectIcon{
+  margin-left: 3px;
+}
+
 
 @media (max-width: 1024px) {
   .lanRow {

@@ -50,7 +50,9 @@ export default function PortfolioComponent() {
                 <p className="contactTxt">Contact: 209-670-5292</p>
               </Nav.Link>
               <Nav.Link>
-                <p className="contactTxt"><Icon icon="logos:google-gmail" /> Jovannj.contreras@gmail.com</p>
+                <p className="contactTxt">
+                  <Icon icon="logos:google-gmail" /> Jovannj.contreras@gmail.com
+                </p>
               </Nav.Link>
               <Nav.Link href={JovannResume} target="_blank">
                 <button className="resumeBtn">Resume</button>
@@ -82,7 +84,8 @@ export default function PortfolioComponent() {
           <div className="allGroup">
             <p className="allTitle">All For One</p>
             <div className="languagesUsed">
-              <HtmlIcon /> <JavascriptIcon /> <CssIcon />
+              <Icon icon="logos:html-5" /> <Icon icon="logos:javascript" />{" "}
+              <Icon icon="logos:css-3" />
             </div>
             <Link
               className=""
@@ -100,7 +103,7 @@ export default function PortfolioComponent() {
           <div className="hamsterGroup">
             <p className="hamsterTitle">Hamster Hotel</p>
             <div className="languagesUsed">
-              <HtmlIcon /> <CssIcon />
+              <Icon icon="logos:html-5" /> <Icon icon="logos:css-3" />
             </div>
             <Link
               className=""
@@ -118,7 +121,12 @@ export default function PortfolioComponent() {
           <div className="adviceGroup">
             <p className="adviceTitle">Advice Gen</p>
             <div className="languagesUsed">
-              <Icon icon="mdi:react" /> <JavascriptIcon /> <CssIcon />
+            <Icon
+               className="IconStyling"
+                icon="tabler:brand-react-native"
+                color="#00C8FF"
+              /> <Icon icon="logos:javascript" />
+              <Icon className="projectIcon" icon="logos:css-3" />
             </div>
             <Link
               className=""
@@ -136,7 +144,8 @@ export default function PortfolioComponent() {
           <div className="budgetGroup">
             <p className="budgetTitle">Budgetting App</p>
             <div className="languagesUsed">
-              <JavascriptIcon /> <CssIcon /> <HtmlIcon />
+              <Icon icon="logos:javascript" /> <Icon icon="logos:css-3" />{" "}
+              <Icon icon="logos:html-5" />
             </div>
             <Link href="https://jcontreras3.github.io/ContrerasJBudgetApp/">
               <img className="budgetGenstyle" src={BudgetApp} />
@@ -151,7 +160,12 @@ export default function PortfolioComponent() {
           <div className="pokeGroup">
             <p className="pokeTitle">Pokemon Gen</p>
             <div className="languagesUsed">
-              <Icon icon="mdi:react" /> <JavascriptIcon /> <CssIcon />
+            <Icon
+               className="IconStyling"
+                icon="tabler:brand-react-native"
+                color="#00C8FF"
+              /> <Icon icon="logos:javascript" />
+              <Icon className="projectIcon" icon="logos:css-3" />
             </div>
             <Link href="http://contrerasjovannpokedex.azurewebsites.net">
               <img className="pokeGenstyle" src={PokemonApp} />
@@ -169,66 +183,117 @@ export default function PortfolioComponent() {
           <div className="languagesBx">
             <h3 className="lanTitle">Languages</h3>
             <div className="iconGroup">
+              <Icon icon="logos:html-5" width="75" height="75" />
               <Icon
-                icon="material-symbols:html"
+                className="javaIcon"
+                icon="logos:javascript"
+                width="75"
+                height="75"
+              />
+              <div className="IconGrouping">
+                 <Icon
+                className="cSharpIcon"
+                icon="devicon:csharp"
                 color="#f70"
                 width="75"
                 height="75"
               />
+              <p className="IconTxt">C Sharp</p>
+              </div>
+             
+              <div>
+                <Icon
+                  className="sqlIcon"
+                  icon="vscode-icons:file-type-sql"
+                  height="75"
+                  width="75"
+                />
+                <p className="sqlTxt">SQL</p>
+              </div>
+
+              <Icon icon="devicon:typescript" height="75" width="75" />
               <Icon
-                icon="material-symbols:javascript"
-                color="#FFDD00"
-                width="75"
+                className="cssIcon"
+                icon="logos:css-3"
                 height="75"
-              />
-              <Icon icon="devicon:csharp" color="#f70" width="75" height="75" />
-              <Icon
-                className="sqlStyle"
                 width="75"
-                height="75"
-                color="#DA3737"
-                icon="tabler:sql"
               />
-              <Icon
-                className="typeStyle"
-                width="75"
-                height="75"
-                icon="mdi:language-typescript"
-              />
-              <Icon icon="ph:file-css-bold" width="75" height="75" />
             </div>
           </div>
 
           <div className="languagesBxTwo">
             <h3 className="lanTitle">Frameworks/Libaries</h3>
             <div className="iconGroup">
-              <Icon icon="mdi:react" color="#00C8FF" width="75" height="75" />
-              <Icon
+              <div className="IconGrouping">
+                 <Icon icon="mdi:react" color="#00C8FF" width="75" height="75" />
+                 <p className="IconTxt">React</p>
+              </div>
+             <div className="ReactNativeIconGrouping">
+               <Icon
+               className="IconStyling"
                 icon="tabler:brand-react-native"
                 color="#00C8FF"
                 width="75"
                 height="75"
               />
-              <Icon icon="skill-icons:bootstrap" width="75" height="75" />
-              <Icon icon="devicon:tailwindcss" width="75" height="75" />
+              <p className="IconTxt">React Native</p>
+             </div>
+             <div>
+              <Icon className="IconStyling" icon="skill-icons:bootstrap" width="75" height="75" />
+              <p className="IconTxt">BootStrap</p>
+             </div>
+              
+              <div className="IconGrouping">
+                 <Icon icon="devicon:tailwindcss" width="75" height="75" />
+                 <p className="IconTxt">TailWind</p>
+              </div>
+             
+              <p className="dotNetTxt">.NET</p>
             </div>
           </div>
           <div className="languagesBxThree">
             <h3 className="lanTitle">Productivity Tools</h3>
             <div className="iconGroup">
-              <Icon icon="logos:notion-icon" width="75" height="75" />
+              <div>
+                 <Icon icon="logos:notion-icon" width="75" height="75" />
+                 <p className="IconTxt">Notion</p>
+              </div>
+             <div className="IconGrouping">
               <Icon icon="ph:figma-logo-duotone" width="75" height="75" />
-              <Icon icon="simple-icons:adobexd" width="75" height="75" />
-              <Icon icon="devicon:jira-wordmark" width="75" height="75" />
-              <Icon icon="devicon:azure" width="75" height="75" />
-              <Icon icon="logos:postman-icon" width="75" height="75" />
+              <p className="IconTxt">Figma</p>
+             </div>
+              
+              <div className="IconGrouping">
+                <Icon icon="logos:adobe-xd" width="75" height="75" />
+                <p className="IconTxt">AdobeXD</p>
+              </div>
+              <div className="IconGrouping">
+                 <Icon icon="devicon:jira-wordmark" width="75" height="75" />
+                 <p className="IconTxt">Jira</p>
+              </div>
+             
+              <div>
+                <Icon icon="devicon:azure" width="75" height="75" />
+                <p className="IconTxt">Azure</p>
+              </div>
+              
+              <div className="IconGrouping">
+                 <Icon icon="logos:postman-icon" width="75" height="75" />
+                 <p className="IconTxt">Postman</p>
+              </div>
+             <div className="IconGrouping">
               <Icon
                 icon="vscode-icons:file-type-vscode"
                 width="75"
                 height="75"
               />
-              <Icon icon="logos:slack-icon" width="75" height="75" />
-              <p className="dotNetTxt">.NET</p>
+              <p className="IconTxt">VSCode</p>
+             </div>
+              <div className="IconGrouping">
+                <Icon icon="logos:slack-icon" width="75" height="75" />
+                <p className="IconTxt">Slack</p>
+              </div>
+              
             </div>
           </div>
         </Row>
@@ -236,10 +301,10 @@ export default function PortfolioComponent() {
       <Row className="footerRow">
         <div className="footerBx">
           <Link href="https://www.linkedin.com/in/jovannj-c/">
-            <LinkedInIcon />
+            <LinkedInIcon className="linkedIn" />
           </Link>
           <Link href="https://tinyurl.com/3kk4m6sz">
-            <GitHubIcon />
+            <GitHubIcon className="gitHub" />
           </Link>
           <Link href={JovannResume} target="_blank">
             <button className="resumeBtn">Resume</button>
