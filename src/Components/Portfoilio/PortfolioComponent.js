@@ -50,7 +50,7 @@ export default function PortfolioComponent() {
                 <p className="contactTxt">Contact: 209-670-5292</p>
               </Nav.Link>
               <Nav.Link>
-                <p className="contactTxt">Email: Jovannj.contreras@gmail.com</p>
+                <p className="contactTxt"><Icon icon="logos:google-gmail" /> Jovannj.contreras@gmail.com</p>
               </Nav.Link>
               <Nav.Link href={JovannResume} target="_blank">
                 <button className="resumeBtn">Resume</button>
@@ -71,8 +71,8 @@ export default function PortfolioComponent() {
             <h2 className="frontEndTxt">Frontend Developer</h2>
             <p className="introTxt">
               Hello welcome to my portfolio webpage, my name is Jovann
-              Contreras, A Junior Software Engineer who enjoys working on the
-              frontend.
+              Contreras, A Junior Software Engineer who has the love for
+              frontend. Continuing to grow my skills and learn.
             </p>
           </div>
         </Row>
