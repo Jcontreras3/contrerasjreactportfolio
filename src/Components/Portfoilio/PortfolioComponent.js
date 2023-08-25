@@ -48,9 +48,6 @@ export default function PortfolioComponent() {
                 <GitHubIcon />
               </Nav.Link>
               <Nav.Link>
-                <p className="contactTxt">Contact: 209-670-5292</p>
-              </Nav.Link>
-              <Nav.Link>
                 <p className="contactTxt">
                   <Icon icon="logos:google-gmail" /> Jovannj.contreras@gmail.com
                 </p>
