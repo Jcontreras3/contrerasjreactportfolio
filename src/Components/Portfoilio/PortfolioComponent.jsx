@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row } from "react-bootstrap";
+import { Container, Row, Col, Card } from "react-bootstrap";
 import "./portfolioStyles.css";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
@@ -20,84 +20,90 @@ import PokemonApp from "../../Assets/PokemonGen.png";
 import JovannResume from "../../Assets/JovannResume23.pdf";
 import Serenity from "../../Assets/Serenity.png";
 import { Icon } from "@iconify/react";
+import { useSpring, animated } from "react-spring";
+import { useState } from "react";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "@mui/material";
+import NavBarComponent from "../NavBar/NavBarComponent";
 
 export default function PortfolioComponent() {
+  const [flip, setFlip] = useState(false);
+  const props = useSpring({
+    to: { opacity: 1 },
+    from: { opacity: 0 },
+    reset: false,
+    delay: 1000,
+    onRest: () => setFlip(!flip),
+
+  });
+
   return (
     <>
-      <Navbar
-        className="navStyle"
-        collapseOnSelect
-        expand="lg"
-        bg="dark"
-        variant="dark"
-      >
-        <Container>
-          <Navbar.Brand className="navTitle" href="#home">
-            Find me on
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="me-auto">
-              <Nav.Link href="https://www.linkedin.com/in/jovannj-c/">
-                <LinkedInIcon />
-              </Nav.Link>
-              <Nav.Link href="https://tinyurl.com/3kk4m6sz">
-                <GitHubIcon />
-              </Nav.Link>
-              <Nav.Link>
-                <p className="contactTxt">
-                  <Icon icon="logos:google-gmail" /> Jovannj.contreras@gmail.com
-                </p>
-              </Nav.Link>
-              <Nav.Link href={JovannResume} target="_blank">
-                <button className="resumeBtn">Resume</button>
-              </Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
+
       <Container fluid className="portCont">
-        <Row>
-          <div>
-            <h1 className="titleTxt">Welcome!</h1>
-            <h1 className="createdByTxt">Created By: Jovann Contreras</h1>
-          </div>
-        </Row>
+        <NavBarComponent />
         <Row className="abtRow">
-          <div className="abtMeBx">
-            <h2 className="frontEndTxt">Frontend Developer</h2>
-            <p className="introTxt">
-              Hello welcome to my portfolio webpage, my name is Jovann
-              Contreras, A Junior Software Engineer who has the love for
-              frontend. Continuing to grow my skills and learn.
-            </p>
-          </div>
+          <animated.div style={props} className='animatedClass'>
+            <h1 className="allTitle" style={{ color: 'white', textAlign: 'center', marginTop: 30 }}>My name is Jovann Contreras</h1>
+
+            <div style={{ display: 'flex', textAlign: 'center' }}>
+              <Col sm={12}>
+                <h2 className="frontEndTxt">&lt; Frontend Developer /&gt; </h2>
+                <p className="introTxt">
+                  Welcome to my Software Engineer Portfolio! I'm Jovann Contreras, a passionate and Junior software engineer with a deep interest for technology and a commitment to creating innovative solutions. Through this portfolio, I invite you to explore my journey through the world of software development and discover the projects, skills, and experiences that define my career.
+                </p>
+              </Col>
+
+            </div>
+            <p className="byMeTxt">Portfolio created by me!</p>
+          </animated.div>
+
         </Row>
 
-        <Row className="projectsBx">
-          <h2 className="projectsTitle">Projects</h2>
-          <div className="allGroup">
-            <p className="allTitle">All For One</p>
-            <div className="languagesUsed">
+        {/* <Row className="projectsBx">
+          <Col>
+            <div className="allGroup">
+              <div className="uh">
+                <p>CSS</p>
+              </div>
+              <div className="uh">
+
+                <p>HTML</p>
+
+              </div>
+              <div className="uh">
+                <p>JavaScript</p>
+              </div>
+              <p className="allTitle">All For One</p>
+              <div className="languagesUsed">
               <Icon icon="logos:html-5" /> <Icon icon="logos:javascript" />{" "}
               <Icon icon="logos:css-3" />
             </div>
-            <Link
-              className=""
-              href="https://jcontreras3.github.io/ContrerasJAllForOneSprintDay2/"
-            >
-              <img className="allforonestyle" src={allforone} />
-            </Link>
-            <Link
-              className="repoStyle"
-              href="https://github.com/Jcontreras3/allforonereact"
-            >
-              Repository
-            </Link>
-          </div>
+
+              <Col sm={6}>
+                <p>This project had a variety of different little questions and to answer from. It was coded to make sure that whatever the user did they would have to answer it correctly. The theme was inspired by a GameBoy look.</p>
+              </Col>
+              <Col sm={6} className="uh2">
+                <Link
+                  className=""
+                  href="https://jcontreras3.github.io/ContrerasJAllForOneSprintDay2/"
+                >
+                  <img className="allforonestyle" src={allforone} />
+                </Link>
+                <Link
+                className="repoStyle"
+                href="https://github.com/Jcontreras3/allforonereact"
+              >
+                Repository
+              </Link>
+              </Col>
+
+              
+            </div>
+          </Col>
+          <h2 className="projectsTitle">Projects</h2>
+
           <div className="hamsterGroup">
             <p className="hamsterTitle">Hamster Hotel</p>
             <div className="languagesUsed">
@@ -186,10 +192,155 @@ export default function PortfolioComponent() {
               Repository
             </Link>
           </div>
+        </Row> */}
+        <Row>
+          <Col><p style={{ textAlign: 'center', marginTop: 50, color: '#3b505c' }} className="allTitle">Projects</p></Col>
         </Row>
+        <div className="projectsBx">
+          <Col>
+            <Link
+              href="https://jcontreras3.github.io/ContrerasJHamsterHotel/"
+              style={{ textDecoration: 'none' }}
+            >
+              <Card className="cardStyle" style={{ width: '30rem', border: 'none' }}>
+                <Card.Body>
+                  <Card.Title className="allTitle" style={{ color: '#3b505c' }}>Hamster Hotel</Card.Title>
+                  <Card.Subtitle style={{ color: '#3b505c' }}>Built with</Card.Subtitle>
+                  <div style={{ display: 'flex', gap: 4 }}>
+                    <p className="languagesUsed">HTML</p>
+                    <p className="languagesUsed">CSS</p>
+                  </div>
+                  <div>
+
+                    <img style={{ float: 'right' }} className="cardStyle" src={HamsterHotel} />
+
+                  </div>
+                  <div>
+
+                    <Card.Text className="cardTxt" style={{ width: 300, color: '#3b505c' }}>
+                      This project was an assignment that I had to rebuild from a refernece image and the webpage had to be responsive
+                    </Card.Text>
+
+                    <Link
+                      className="repoStyle"
+                      href="https://github.com/Jcontreras3/ContrerasJHamsterHotel"
+                    >
+                      Repository
+                    </Link>
+                  </div>
+                </Card.Body>
+              </Card>
+            </Link>
+          </Col>
+          <Col>
+            <Link
+              href="https://jcontreras3.github.io/ContrerasJHamsterHotel/"
+              style={{ textDecoration: 'none' }}
+            >
+              <Card className="cardStyle" style={{ width: '30rem', border: 'none' }}>
+                <Card.Body>
+                  <Card.Title className="allTitle" style={{ color: '#3b505c' }}>Hamster Hotel</Card.Title>
+                  <Card.Subtitle style={{ color: '#3b505c' }}>Built with</Card.Subtitle>
+                  <div style={{ display: 'flex', gap: 4 }}>
+                    <p className="languagesUsed">HTML</p>
+                    <p className="languagesUsed">CSS</p>
+                  </div>
+                  <div>
+
+                    <img style={{ float: 'right' }} className="cardStyle" src={HamsterHotel} />
+
+                  </div>
+                  <div>
+
+                    <Card.Text className="cardTxt" style={{ width: 300, color: '#3b505c' }}>
+                      This project was an assignment that I had to rebuild from a refernece image and the webpage had to be responsive
+                    </Card.Text>
+
+                    <Link
+                      className="repoStyle"
+                      href="https://github.com/Jcontreras3/ContrerasJHamsterHotel"
+                    >
+                      Repository
+                    </Link>
+                  </div>
+                </Card.Body>
+              </Card>
+            </Link>
+          </Col>
+          <Col>
+            <Link
+              href="https://jcontreras3.github.io/ContrerasJHamsterHotel/"
+              style={{ textDecoration: 'none' }}
+            >
+              <Card className="cardStyle" style={{ width: '30rem', border: 'none' }}>
+                <Card.Body>
+                  <Card.Title className="allTitle" style={{ color: '#3b505c' }}>Hamster Hotel</Card.Title>
+                  <Card.Subtitle style={{ color: '#3b505c' }}>Built with</Card.Subtitle>
+                  <div style={{ display: 'flex', gap: 4 }}>
+                    <p className="languagesUsed">HTML</p>
+                    <p className="languagesUsed">CSS</p>
+                  </div>
+                  <div>
+
+                    <img style={{ float: 'right' }} className="cardStyle" src={HamsterHotel} />
+
+                  </div>
+                  <div>
+
+                    <Card.Text className="cardTxt" style={{ width: 300, color: '#3b505c' }}>
+                      This project was an assignment that I had to rebuild from a refernece image and the webpage had to be responsive
+                    </Card.Text>
+
+                    <Link
+                      className="repoStyle"
+                      href="https://github.com/Jcontreras3/ContrerasJHamsterHotel"
+                    >
+                      Repository
+                    </Link>
+                  </div>
+                </Card.Body>
+              </Card>
+            </Link>
+          </Col>
+          <Col>
+            <Link
+              href="https://jcontreras3.github.io/ContrerasJHamsterHotel/"
+              style={{ textDecoration: 'none' }}
+            >
+              <Card className="cardStyle" style={{ width: '30rem', border: 'none' }}>
+                <Card.Body>
+                  <Card.Title className="allTitle" style={{ color: '#3b505c' }}>Hamster Hotel</Card.Title>
+                  <Card.Subtitle style={{ color: '#3b505c' }}>Built with</Card.Subtitle>
+                  <div style={{ display: 'flex', gap: 4 }}>
+                    <p className="languagesUsed">HTML</p>
+                    <p className="languagesUsed">CSS</p>
+                  </div>
+                  <div>
+
+                    <img style={{ float: 'right' }} className="cardStyle" src={HamsterHotel} />
+
+                  </div>
+                  <div>
+
+                    <Card.Text className="cardTxt" style={{ width: 300, color: '#3b505c' }}>
+                      This project was an assignment that I had to rebuild from a refernece image and the webpage had to be responsive
+                    </Card.Text>
+
+                    <Link
+                      className="repoStyle"
+                      href="https://github.com/Jcontreras3/ContrerasJHamsterHotel"
+                    >
+                      Repository
+                    </Link>
+                  </div>
+                </Card.Body>
+              </Card>
+            </Link>
+          </Col>
+        </div>
 
         <Row className="lanRow">
-          <div className="languagesBx">
+          <Col sm={12} className="languagesBx">
             <h3 className="lanTitle">Languages</h3>
             <div className="iconGroup">
               <div className="IconGrouping">
@@ -225,7 +376,7 @@ export default function PortfolioComponent() {
                   height="75"
                   width="75"
                 />
-                <p className="sqlTxt">SQL</p>
+                <p className="IconTxt">SQL</p>
               </div>
 
               <div className="Icongrouping">
@@ -242,9 +393,9 @@ export default function PortfolioComponent() {
                 <p className="IconTxt">CSS</p>
               </div>
             </div>
-          </div>
+          </Col>
 
-          <div className="languagesBxTwo">
+          <Col sm={12}>
             <h3 className="lanTitle">Frameworks/Libaries</h3>
             <div className="iconGroup">
               <div className="IconGrouping">
@@ -278,8 +429,8 @@ export default function PortfolioComponent() {
 
               <p className="dotNetTxt">.NET</p>
             </div>
-          </div>
-          <div className="languagesBxThree">
+          </Col>
+          <Col sm={12}>
             <h3 className="lanTitle">Productivity Tools</h3>
             <div className="iconGroup">
               <div>
@@ -322,22 +473,23 @@ export default function PortfolioComponent() {
                 <p className="IconTxt">Slack</p>
               </div>
             </div>
+          </Col>
+        </Row>
+        <Row className="footerRow">
+          <div className="footerBx">
+            <Link href="https://www.linkedin.com/in/jovannj-c/">
+              <LinkedInIcon className="linkedIn" />
+            </Link>
+            <Link href="https://tinyurl.com/3kk4m6sz">
+              <GitHubIcon className="gitHub" />
+            </Link>
+            <Link href={JovannResume} target="_blank">
+              <button className="resumeBtn">Resume</button>
+            </Link>
           </div>
         </Row>
       </Container>
-      <Row className="footerRow">
-        <div className="footerBx">
-          <Link href="https://www.linkedin.com/in/jovannj-c/">
-            <LinkedInIcon className="linkedIn" />
-          </Link>
-          <Link href="https://tinyurl.com/3kk4m6sz">
-            <GitHubIcon className="gitHub" />
-          </Link>
-          <Link href={JovannResume} target="_blank">
-            <button className="resumeBtn">Resume</button>
-          </Link>
-        </div>
-      </Row>
+
     </>
   );
 }
