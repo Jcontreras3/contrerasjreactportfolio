@@ -22,6 +22,7 @@ import Serenity from "../../Assets/Serenity.png";
 import { Icon } from "@iconify/react";
 import { useSpring, animated } from "react-spring";
 import { useState } from "react";
+import SEEDS from '../../Assets/SEEDS.png'
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "@mui/material";
@@ -199,7 +200,7 @@ export default function PortfolioComponent() {
         <div className="projectsBx">
           <Col>
             <Link
-              href="https://jcontreras3.github.io/ContrerasJHamsterHotel/"
+              href="https://serenityhealth.vercel.app/"
               style={{ textDecoration: 'none' }}
             >
               <Card className="cardStyle" style={{ width: '30rem', border: 'none' }}>
@@ -207,18 +208,19 @@ export default function PortfolioComponent() {
                   <Card.Title className="allTitle" style={{ color: '#3b505c' }}>Hamster Hotel</Card.Title>
                   <Card.Subtitle style={{ color: '#3b505c' }}>Built with</Card.Subtitle>
                   <div style={{ display: 'flex', gap: 4 }}>
-                    <p className="languagesUsed">HTML</p>
+                    <p className="languagesUsed">TypeScript</p>
                     <p className="languagesUsed">CSS</p>
+                    <p className="languagesUsed">BootStrap</p>
                   </div>
                   <div>
 
-                    <img style={{ float: 'right' }} className="cardStyle" src={HamsterHotel} />
+                    <img style={{ float: 'right' }} className="cardStyle" src={Serenity} />
 
                   </div>
                   <div>
 
                     <Card.Text className="cardTxt" style={{ width: 300, color: '#3b505c' }}>
-                      This project was an assignment that I had to rebuild from a refernece image and the webpage had to be responsive
+                      This is a application still currently under development with fellow co coders. The app is a application that is being built to help with mental help and give people the ability to express their feeling and also help them. The app includes various of tools and resources that users can utilize.
                     </Card.Text>
 
                     <Link
@@ -234,33 +236,32 @@ export default function PortfolioComponent() {
           </Col>
           <Col>
             <Link
-              href="https://jcontreras3.github.io/ContrerasJHamsterHotel/"
               style={{ textDecoration: 'none' }}
             >
               <Card className="cardStyle" style={{ width: '30rem', border: 'none' }}>
                 <Card.Body>
-                  <Card.Title className="allTitle" style={{ color: '#3b505c' }}>Hamster Hotel</Card.Title>
+                  <Card.Title className="allTitle" style={{ color: '#3b505c' }}>Seeds of Partnership</Card.Title>
                   <Card.Subtitle style={{ color: '#3b505c' }}>Built with</Card.Subtitle>
                   <div style={{ display: 'flex', gap: 4 }}>
-                    <p className="languagesUsed">HTML</p>
-                    <p className="languagesUsed">CSS</p>
+                    <p className="languagesUsed">React</p>
+                    <p className="languagesUsed">Next.js</p>
+                    <p className="languagesUsed">TypeScript</p>
                   </div>
                   <div>
 
-                    <img style={{ float: 'right' }} className="cardStyle" src={HamsterHotel} />
+                    <img style={{ float: 'right' }} className="cardStyle" src={SEEDS} />
 
                   </div>
                   <div>
 
                     <Card.Text className="cardTxt" style={{ width: 300, color: '#3b505c' }}>
-                      This project was an assignment that I had to rebuild from a refernece image and the webpage had to be responsive
+                      Worked on this web application while I was interning for CodeStack Academy. I was responsible for updating the web page and adding features for the user experience.
                     </Card.Text>
 
                     <Link
                       className="repoStyle"
-                      href="https://github.com/Jcontreras3/ContrerasJHamsterHotel"
                     >
-                      Repository
+                      N/A
                     </Link>
                   </div>
                 </Card.Body>
@@ -269,31 +270,31 @@ export default function PortfolioComponent() {
           </Col>
           <Col>
             <Link
-              href="https://jcontreras3.github.io/ContrerasJHamsterHotel/"
+              href="https://contrerasjovannpokedexreact.vercel.app/"
               style={{ textDecoration: 'none' }}
             >
               <Card className="cardStyle" style={{ width: '30rem', border: 'none' }}>
                 <Card.Body>
-                  <Card.Title className="allTitle" style={{ color: '#3b505c' }}>Hamster Hotel</Card.Title>
+                  <Card.Title className="allTitle" style={{ color: '#3b505c' }}>Pokemon Generator</Card.Title>
                   <Card.Subtitle style={{ color: '#3b505c' }}>Built with</Card.Subtitle>
                   <div style={{ display: 'flex', gap: 4 }}>
-                    <p className="languagesUsed">HTML</p>
-                    <p className="languagesUsed">CSS</p>
+                    <p className="languagesUsed">React</p>
+                    <p className="languagesUsed">JavaScript</p>
                   </div>
                   <div>
 
-                    <img style={{ float: 'right' }} className="cardStyle" src={HamsterHotel} />
+                    <img style={{ float: 'right' }} className="cardStyle" src={PokemonApp} />
 
                   </div>
                   <div>
 
                     <Card.Text className="cardTxt" style={{ width: 300, color: '#3b505c' }}>
-                      This project was an assignment that I had to rebuild from a refernece image and the webpage had to be responsive
+                      This project is a generator where anyone can search a pokemon and the stats of that pokemon, type and move set will be displayed.
                     </Card.Text>
 
                     <Link
                       className="repoStyle"
-                      href="https://github.com/Jcontreras3/ContrerasJHamsterHotel"
+                      href="https://github.com/Jcontreras3/contrerasjovannpokedexreact"
                     >
                       Repository
                     </Link>
@@ -427,7 +428,7 @@ export default function PortfolioComponent() {
                 <p className="IconTxt">TailWind</p>
               </div>
 
-              <p className="dotNetTxt">.NET</p>
+              <p className="IconTxt" style={{fontSize:'80px'}}>.NET</p>
             </div>
           </Col>
           <Col sm={12}>
