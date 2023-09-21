@@ -205,7 +205,7 @@ export default function PortfolioComponent() {
             >
               <Card className="cardStyle" style={{ width: '30rem', border: 'none' }}>
                 <Card.Body>
-                  <Card.Title className="allTitle" style={{ color: '#3b505c' }}>Hamster Hotel</Card.Title>
+                  <Card.Title className="allTitle" style={{ color: '#3b505c' }}> Serenity</Card.Title>
                   <Card.Subtitle style={{ color: '#3b505c' }}>Built with</Card.Subtitle>
                   <div style={{ display: 'flex', gap: 4 }}>
                     <p className="languagesUsed">TypeScript</p>
@@ -219,8 +219,8 @@ export default function PortfolioComponent() {
                   </div>
                   <div>
 
-                    <Card.Text className="cardTxt" style={{ width: 300, color: '#3b505c' }}>
-                      This is a application still currently under development with fellow co coders. The app is a application that is being built to help with mental help and give people the ability to express their feeling and also help them. The app includes various of tools and resources that users can utilize.
+                    <Card.Text className="cardTxt" style={{ color: '#3b505c' }}>
+                      This is a application still currently under development with fellow co coders which is being built to help others going through struggles and has various of tools to help.
                     </Card.Text>
 
                     <Link
